@@ -3,3 +3,4 @@
 const minimum = (num1, num2) => num1 <= num2 ? num1 : num2;
 
 console.log(minimum(69,420));
+console.log(minimum(1000, 100));
