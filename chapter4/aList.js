@@ -44,6 +44,19 @@ function nth(node, n) {
     return nth(node.rest, n - 1);
 }
 
+/*
+function nth(node, n) {
+    if (node === null) return undefined;
+    let count = 0;
+    while (node !== null) {
+        if (count === n) return node.value;
+        count += 1;
+        node = node.rest
+    }
+    return undefined;
+}
+*/
+
 // Dummy data.
 let arr = [1,2,3];
 let list = arrayToList(arr);
